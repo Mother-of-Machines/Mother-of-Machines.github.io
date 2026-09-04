@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Midlight — AI Ops for operators who ship</title>
+  <meta name="description" content="Midlight (Midnight Protocol, LLC) builds productized AI automation services and digital products for small businesses and solo operators." />
+  <style>
+    :root { --bg:#0b0c10; --fg:#e8eaef; --muted:#9aa3b2; --accent:#7c9cff; --card:#14161d; --border:#232733; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--fg); line-height:1.55; }
+    a { color:var(--accent); text-decoration:none; }
+    .wrap { max-width:880px; margin:0 auto; padding:48px 20px 80px; }
+    .eyebrow { color:var(--muted); letter-spacing:.08em; text-transform:uppercase; font-size:12px; margin-bottom:12px; }
+    h1 { font-size:clamp(2rem,5vw,3rem); line-height:1.1; margin:0 0 16px; }
+    h2 { font-size:1.35rem; margin:40px 0 12px; }
+    p.lead { color:var(--muted); font-size:1.1rem; max-width:56ch; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:16px; padding:24px; margin-top:28px; }
+    .price { font-size:1.75rem; font-weight:700; margin:8px 0 16px; }
+    .btn { display:inline-block; background:var(--accent); color:#0b0c10; font-weight:700; padding:12px 18px; border-radius:999px; }
+    .btn:hover { filter:brightness(1.05); }
+    ul { color:var(--muted); padding-left:1.1rem; }
+    ol { color:var(--muted); padding-left:1.1rem; }
+    footer { margin-top:56px; color:var(--muted); font-size:.9rem; border-top:1px solid var(--border); padding-top:20px; }
+    .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); margin-top:16px; }
+    .tile { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="eyebrow">Midlight · DBA of Midnight Protocol, LLC</div>
+    <h1>AI ops that clear the busywork.</h1>
+    <p class="lead">Productized AI automation and digital systems for small businesses and solo operators. Sell first. Build second. Keep what works.</p>
+
+    <section class="card" id="sprint">
+      <div class="eyebrow">Primary offer</div>
+      <h2 style="margin-top:0">AI Ops Sprint</h2>
+      <div class="price">$149</div>
+      <p>In 48 hours we map one painful repetitive workflow, build the automation or operating system, and hand back a working setup plus a short SOP.</p>
+      <ul>
+        <li>One focused workflow — not a sprawling “AI strategy”</li>
+        <li>Working deliverable you can run the next day</li>
+        <li>Short SOP so it survives without us</li>
+      </ul>
+      <p style="margin-top:20px"><a class="btn" href="https://buy.stripe.com/bJe14feMJ7Jc30c7kEcbC00">Buy AI Ops Sprint</a></p>
+    </section>
+
+    <h2>How it works</h2>
+    <div class="grid">
+      <div class="tile"><strong>1. Pay</strong><br/><span style="color:var(--muted)">Book the sprint online.</span></div>
+      <div class="tile"><strong>2. Brief</strong><br/><span style="color:var(--muted)">Email your #1 painful workflow.</span></div>
+      <div class="tile"><strong>3. Deliver</strong><br/><span style="color:var(--muted)">Working system + SOP in 48 hours.</span></div>
+    </div>
+
+    <h2>Who it’s for</h2>
+    <p class="lead">Founders, operators, and lean teams drowning in copy-paste work, inbox chaos, spreadsheet glue, and tool sprawl.</p>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:the.alexander.cash@outlook.com">the.alexander.cash@outlook.com</a></p>
+
+    <footer>
+      <p>© <span id="y"></span> Midlight · Midnight Protocol, LLC</p>
+      <p><a href="/privacy.html">Privacy</a> · <a href="/terms.html">Terms</a></p>
+    </footer>
+  </main>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
